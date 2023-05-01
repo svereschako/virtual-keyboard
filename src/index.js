@@ -349,10 +349,13 @@ const Keyboard = {
     },    
 };
 var storage = window.localStorage;
-const message = document.createElement("p");
-message.textContent = "Use left shift + left ctrl to change layout";
+var message = document.createElement("p");
+message.textContent = "Windows";
 const textarea = document.createElement("textarea");
 textarea.classList.add("use-keyboard-input");
+document.body.appendChild(message);
+message = document.createElement("p");
+message.textContent = "Use left shift + left ctrl to change layout";
 document.body.appendChild(message);
 document.body.appendChild(textarea);
 

@@ -39,14 +39,17 @@
     padding: 0;
     -webkit-tap-highlight-color: transparent;
     position: relative;
+    transition: 0.3s;
 }
 
 .keyboard__key:active {
     background-color: #b7e4f3;
+    border: 1px solid #f44336;
 }
 
 .keyboard__key--active {
     background-color: #b7e4f3;
+    border: 1px solid #f44336;
 }
 
 .keyboard__key--wide {
