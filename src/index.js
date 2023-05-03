@@ -129,36 +129,7 @@ const Keyboard = {
                     key.classList.remove("keyboard__key--active");                    
                 }
             });   
-        }.bind(this);
-        /*window.addEventListener("keypress", function(e) {
-            console.log('press');
-            th.elements.keys.forEach(function(key){
-
-                if(key.getAttribute("code") == e.code){
-                    if(e.code == "CapsLock")
-                        key.click();
-                }
-            });
-        });*/  
-        /*function keydownHandler(e) {
-            e.preventDefault();            
-            this.elements.keys.forEach(function(key){
-                if(key.getAttribute("code") == e.code){                     
-                    key.click();
-                    key.classList.add("keyboard__key--active");
-                }
-            });    
-        }
-
-        function keyupHandler(e) {
-            this.elements.keys.forEach(function(key){
-                if(key.getAttribute("code") == e.code){                    
-                    key.classList.remove("keyboard__key--active");
-                }
-            }); 
-        }*/        
-        //window.addEventListener("keydown", this.eventHandlers.onkeydown.bind(this));
-        //window.addEventListener("keyup", this.eventHandlers.onkeyup.bind(this));
+        }.bind(this);        
     },
 
     removeListener() {
